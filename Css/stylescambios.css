@@ -1,0 +1,29 @@
+.subtitulo{
+    background: rgba(91, 44, 32, 0.5);
+}form{
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+}td, tr{
+    padding: 15px;
+    background: rgba(91, 44, 32, 0.5);
+    border: 3px solid #5B3535;
+    color: azure;
+}.tit-edit{
+    background: #5B3535;
+}table{
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin: 0 auto;
+}button{
+    padding: 10px 15px;
+    margin: 0 44%;
+    background: #5B3535;
+    border-color: rgba(91, 44, 32, 0.5);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    color: azure;
+}select, option{
+    color:azure;
+}

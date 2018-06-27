@@ -1,0 +1,31 @@
+.subtitulo{
+    background: rgba(91, 44, 32, 0.5);
+}form{
+    background: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+}td, tr{
+    padding: 15px;
+    background: rgba(0, 3, 70, 0.4);
+    border: 3px solid #265776;
+    color: azure;
+}.tit-edit{
+    background: #5B3535;
+}table{
+    margin-top: 18px;
+    margin: auto;
+}button{
+    padding: 10px 15px;
+    margin: 10 42%;
+    background: rgba(0, 3, 70, 0.4);
+    border-color: #265776;
+    border-radius: 12px;
+    color: azure;
+}select{
+     background: rgba(0, 3, 70, 0.4);
+    color: azure;
+}input{
+    background: rgba(0, 3, 70, 0.4);
+    color: azure;
+}

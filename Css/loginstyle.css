@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}h1{
+    margin-top: 35px;
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px
+}
+
+body{
+    margin: 0;
+    background: #3F3DF1;
+    font-family: sans-serif;
+}.form-log{
+    margin: auto;
+    width: 98%;
+    max-width: 300px;
+    background: azure;
+    border: 2px solid rgba(0,0,0,);
+    border-radius: 8px;
+}.tit-blue{
+    text-align: center;
+    background: deepskyblue;
+    padding: 20px;
+    color: azure;
+    font-weight: 100;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom: 4px solid #3F3DF1;
+}.contenedor{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid #3F3DF1;
+}.btn-ingresar{
+    background: #3F3DF1;
+    color: azure;
+    margin: auto;
+    padding: 10px 33px;
+    cursor: pointer;
+    margin-top: 15px;
+}label{
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: -7px;
+    font-size: 20px;
+}.link{
+    width: 100%;
+    margin: 15px 0px;
+    text-align: center;
+}.cajas{
+    margin: auto;
+    
+}.logotyt{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}

@@ -1,0 +1,37 @@
+form{
+    width: 800px;
+    padding: 30 0;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+}button{
+    padding: 10 30px;
+    margin: 10px 42.44%;
+    background: #5B3535;
+    border-color: rgba(91, 44, 32, 0.5);
+    border-radius: 12px;
+    color: azure;
+    font-size: 20px;
+}td, tr{
+    padding: 15px;
+    background: rgba(91, 44, 32, 0.5);
+    border: 3px solid #5B3535;
+    color: azure;
+    font-size: 18px;
+}table{
+    margin-top: 18px;
+    margin: auto;
+}h1{
+   background: #5B3535; 
+}textarea{
+    min-height: 80px;
+    max-height: 80px;
+    max-width: 300px;
+    min-width: 300px;
+    font-size: 20px;
+}.fecha-style{
+    background: rgba(91, 44, 32, 0.5);
+    color: azure;
+    border-color: rgba(91, 44, 32, 0.5);
+    font-size: 17px;
+}

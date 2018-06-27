@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+*{
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 2px;  
+}body{
+    margin: 0;
+}
+.logotyt
+{
+width: 180px;
+height: 45px
+}.contenedor{
+    margin: auto;
+    width: 97%;
+}
+/*-------------Estilos Header------------------*/
+.header{
+    height: 60px;
+}
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.logotyt{
+    margin: 3px;
+    color:azure;
+}
+.icon-lista{display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #3F3DF1;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    cursor: pointer;
+    color: azure; 
+    
+}
+.icon-lista:hover{
+    background: azure;
+    color: #3F3DF1;
+}
+/*----------------------Estilos Menu---------------------*/
+.nav{
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    left: -100%;
+    transition: all 0.7s;
+}
+.menu_link{
+    display: block;
+    padding: 10px;
+    background: #3F3DF1;
+    text-decoration: none;
+    color:azure
+}
+.menu_link:hover{
+    background: azure;
+    color: #3F3DF1;
+}
+.mostrar{
+    left: 0;
+}
+.select{
+    background: azure;
+    color: #3F3DF1;
+}
+/*------------------------------------Estilos Banner------------------------------------*/
+.banner{
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 20px;
+}
+.banner .contenedor{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color:azure;
+    text-align: center;
+}
+
+/*-----------------------Barra Inferior-----------------------*/
+.footer{
+    background: #1A19A0;
+    color: azure;
+    text-align: center;
+    padding: 7px;
+}.footer .social [class^="icon-"]{
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+    padding: 10px;
+}
+/*----------------------Estilo Secciones---------------------------*/
+.section_titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #3F3DF1
+}
+.cursos_columna{
+    position: relative;
+    margin-bottom: 20px;
+}
+.cursos_descripcion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: azure;
+    background: rgba(0,0,0,0.6);
+    width: 55%;
+    height: 100%;
+    padding: 10px;
+}
+.cursos_titulo{
+    font-size: 22px;
+    margin: 5px 0;
+}
+.cursos_img{
+    height: 200px;
+    width: 100%
+}
+/*------------------------Responsive-------------------------*/
+@media(min-width:480px){
+    .logo{
+        font-size: 37px;
+    }
+    .logotyt{
+       width: 220px;
+        height: 55px;
+    }
+    .banner_titulo{
+        font-size: 30px;
+        margin: 7px 0;
+    }
+    .parrafo{
+        font-size: 21px;
+        margin: 7px 0;
+    }
+    .cursos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }.cursos_columna{
+        width: 48%
+    }.section_titulo{
+        width: 100%;
+    }
+}
+@media(min-width:768px){
+    .banner_titulo{
+        font-size: 50px;
+    background: rgba(0,0,0,0.3);
+    }.ban_img{
+        width: 100%;
+    }.section_titulo{
+        margin-top: -5px;
+    }.cursos_titulo{
+        font-size: 23px;
+    }.cursos_txt{
+        font-size: 19px
+    }
+}@media(min-width:1024px){
+    .banner_titulo{
+        font-size: 60px;
+        margin: 0;
+    }
+    .nav{
+        position: static;
+        width: auto;
+    }.menu{
+        display: flex;
+    }.menu_link{
+        background: none;
+    }
+    .icon-lista{
+        display: none;
+    }.select{
+        background: azure;
+    }.ban_img{
+        height: 90%;
+    }.contenedor{
+        width: 1000px;
+    }.menu{
+        font-size:18px;
+    }.logotyt{
+        width: auto;
+        height: auto;
+    }.section_titulo{
+        font-size: 50px;
+        margin-bottom: 0;
+        color: azure;
+        width: 100%;
+        margin-top: 0;
+        background: rgba(0,0,0,0.3);
+    }.cursos{
+        margin-top: -200px;
+    }.cursos_img{
+        height: 250px;
+    }.parrafo{
+    background: rgba(0,0,0,0.5);
+        font-size:  30px;
+        margin: 0;
+    }.cursos_columna{
+        width: 24%;
+    }.cursos_txt{
+        font-size:  17px;
+    }.cursos_titulo{
+        font-size: 17px
+    }
+}

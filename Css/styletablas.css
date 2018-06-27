@@ -1,0 +1,61 @@
+table{
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 6%;
+}
+h1{
+    /*background-image: url(fondotit.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;*/
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    background: #3F3DF1;
+    color:azure;
+}
+tr{
+    border: 1px solid;
+    border-color: black;
+}
+.filas{
+    background: rgba(0, 3, 70, 0.6);
+    color: azure;
+    padding: 12px;
+}.titulos, .titulo1, .titulof{
+    background: #3F3DF1;
+    padding: 15px;
+    color: azure;
+    font-size: 18px;
+}.titulo1{
+    border-top-left-radius: 20px;
+}.titulof{
+    border-top-right-radius: 20px;
+}form{
+    margin:  0px  16%;
+    justify-content: space-between;
+    display: block;
+}.btn-his{
+    background: #3F3DF1;
+    border-color: blue;
+    color: azure;
+    padding: 9px 30px;
+    border-radius: 8px;
+    font-size: 18px
+}body{
+    background-image: url(bosqueblue.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}.filtros, .filtros-1, .filtros-2, .filtros-3{
+    padding: 11px 8px;
+    justify-content: space-between;
+    margin: 0px 35;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    border: 2px solid blue;
+}.fil-por{
+    margin-left: 30%
+}label{
+    color: azure;
+    background: rgba(0, 3, 70, 0.5);
+    font-size: 17.6px
+}

@@ -1,0 +1,72 @@
+table{
+    margin: auto;
+    margin-bottom: 5%;
+}
+/*h1{
+    text-align: center;
+    margin: 0;
+    margin-left: 0px;
+    padding: 20px;
+    background: rgba(0, 3, 70, 0.4);
+    color:azure;
+}*/
+tr{
+    border: 1px solid;
+    border-color: black;
+}
+.filas{
+   background: rgba(0, 3, 70, 0.4);
+    padding: 12px;
+    color: white;
+    background:  rgba(91, 44, 32, 0.5);
+}.titulos, .titulo1, .titulof{
+    background: #5B3535;
+    padding: 15px;
+    color: azure;
+}.titulo1{
+    border-top-left-radius: 20px;
+}.titulof{
+    border-top-right-radius: 20px;
+}form{
+    margin:  15px  18%; 
+    justify-content: space-between;
+    display: block;
+}.btn-his{
+    padding: 10 35px;
+    background: rgba(91, 44, 32, 0.5);
+    margin: 0 4%;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 17px;
+    text-align: center;
+    color: azure;
+    cursor: pointer; 
+}.filtros, .filtros-1, .filtros-2, .filtros-3{
+    padding: 11px 8px;
+    justify-content: space-between;
+    margin: 0px 35;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    border-color: white;
+    background: rgba(91, 44, 32, 0.5);
+    color: wheat;
+    margin: 0 2.93%;
+}.edit{
+    color: azure;
+}label{
+    color: aliceblue;
+}.tit-informe{
+    background: #5B3535;
+    margin-bottom: 5%;
+}.buttons{
+    padding: 5 10px;
+    border-radius: 7px;
+    background: #5B3535;
+    color: azure;
+    font-size: 15px;
+    cursor: pointer;
+}.filtros-1{
+    margin: 3% 0%;
+}.label-in{
+    margin-left: 30%;
+}

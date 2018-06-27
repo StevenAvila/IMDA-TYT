@@ -1,0 +1,31 @@
+<DOCTYPE html>
+  <html lang="es">
+   <head>
+       <meta charset="utf-8">
+       <title> Registro </title>
+       <link rel="stylesheet"href="Css/registrostyle.css">
+       <script src="Javascript/validar.js"></script>
+   </head>
+       <body>
+       <h1>Registrate</h1>
+       <form action="enviaregistro.php" method="post" class="form-registro" onsubmit="return validar();">
+          <h2 class="form-titulo">Crea tu cuenta</h2>
+           <div class="contenedores">
+              <img src="Img/tyt-logo.png" alt="" class="logotyt">
+               <input type="text" id="nombres" name="nombres" placeholder="Nombres" class="input-50"  required>
+               <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-50"  required>
+               <select class="input-50" name="newgenero" id="">
+                   <option value="1">Masculino</option>
+                   <option value="2">Femenino</option>
+                   <option value="3">Indefinido</option>
+               </select>
+               <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required >
+               <input type="text" id="usuario" name="usuario" placeholder="Usuario"  class="input-50"  required>
+               <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" class="input-50" required >
+               <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-100" required >
+               <input type="submit" value="Registrar" class="btn-enviar">
+               <p class="link">¿Tienes una cuenta?<a href="login.html">Ingresa</a></p>
+           </div>
+       </form>
+   </body>
+</html>
