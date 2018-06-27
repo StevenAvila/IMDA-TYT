@@ -1,4 +1,5 @@
 <?php
+error_Reporting(E_ERROR);
 session_start();
 $varsesion = $_SESSION['usuario'];
 
