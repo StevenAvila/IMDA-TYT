@@ -9,10 +9,10 @@ $email =$_POST["NuevoCorreo"];
 $newgenero =$_POST["NuevoGenero"];
 $tipe =$_POST["NuevoTipo"];
 //$user =$_POST["Olduser"];
-//$password =$_POST["Oldpass"];
+$password =$_POST["NuevoContraseña"];
 //$phone =$_POST["Oldtelefono"];
 
-$editar="UPDATE usuario SET nombre='".$name."', apellidos='".$secondname."',correo='".$email."',genero_idgenero='".$newgenero."',tipousuario_idtipousuario='".$tipe."'WHERE idusuario='".$id."'";
+$editar="UPDATE usuario SET nombre='".$name."', apellidos='".$secondname."',correo='".$email."',genero_idgenero='".$newgenero."',tipousuario_idtipousuario='".$tipe."', contrasena='".$password."'WHERE idusuario='".$id."'";
 
 $resultado = mysqli_query($conexion,$editar);
 

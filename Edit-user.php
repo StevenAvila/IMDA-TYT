@@ -95,7 +95,7 @@ include 'conexion.php';
                 </tr>
                 <tr>
                 <td><label>Contraseña</label></td>
-                <td><label>'.$lista['contrasena'].'</label> </td> 
+                <td><input type="text" name="NuevoContraseña" value="'.$lista['contrasena'].'"></td> 
                 </tr>
                 <tr>
                 <td><label>Telefono</label></td>
